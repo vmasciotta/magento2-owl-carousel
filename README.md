@@ -1,4 +1,4 @@
-# Magento 2 OWl Carousel
+# Magento 2 Owl Carousel
 
 Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee guida di Magento.
  
@@ -45,7 +45,7 @@ Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee gui
  <script type="text/x-magento-init">
      {
          "#owl-demo": {
-             "Vmasciotta_OwlCarousel/js/owl-carousel": {
+             "OwlCarousel": {
                  "autoPlay": 3000,
                  "items": 4,
                  "itemsDesktop": [1199, 3],
