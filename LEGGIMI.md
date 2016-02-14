@@ -1,38 +1,37 @@
 # Magento 2 Owl Carousel
 
-This simple module allows You to use OwlCarousel following the Magento way.
-
 Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee guida di Magento.
-
-## How to install
-
-Add the following lines into your composer.json
  
-```
-...
-"require":{
-    ...
-    "vmasciotta/magento2-owl-carousel":"1.0.0"
- },
+## Come installare
+ 
+ Aggiungere la riga seguente al composer del proprio progetto:
+  
+ ```
  ...
- "repositories":[
-     {"type": "vcs", "url":"git@github.com:vmasciotta/magento2-owl-carousel.git"}
- ]
-```
+ "require":{
+     ...
+     "vmasciotta/magento2-owl-carousel":"1.0.0"
+  },
+  ...
+  "repositories":[
+      {"type": "vcs", "url":"git@github.com:vmasciotta/magento2-owl-carousel.git"}
+  ]
+ ```
+  
+ Esegure quindi dalla root di magento i seguenti comandi:
  
-Then type the following commands from your Magento root:
+ ```
+ $ composer update
+ $ ./bin/magento cache:disable
+ $ ./bin/magento module:enable Vmasciotta_PrivacyPolicy
+ $ ./bin/magento setup:upgrade
+ $ ./bin/magento cache:enable
+ ```
 
-```
-$ composer update
-$ ./bin/magento cache:disable
-$ ./bin/magento module:enable Vmasciotta_ProvinceItaliane
-$ ./bin/magento setup:upgrade
-$ ./bin/magento cache:enable
-```
  
-## How to use
+## Esempio di utilizzo
  
- Using `data-mage-init`:
+ Usando `data-mage-init`:
   
  ```html
  
@@ -56,7 +55,7 @@ $ ./bin/magento cache:enable
  </div>
  ```
  
- Using `<script>` tag:
+ Usando il tag `<script>`:
  
  ```html
  <div id="owl-demo">
@@ -83,5 +82,3 @@ $ ./bin/magento cache:enable
      }
  </script>
  ```
- 
- 
