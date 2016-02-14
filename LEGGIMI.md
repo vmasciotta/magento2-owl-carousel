@@ -23,7 +23,7 @@ Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee gui
  ```
  $ composer update
  $ ./bin/magento cache:disable
- $ ./bin/magento module:enable Vmasciotta_PrivacyPolicy
+ $ ./bin/magento module:enable Vmasciotta_OwlCarousel
  $ ./bin/magento setup:upgrade
  $ ./bin/magento cache:enable
  ```
