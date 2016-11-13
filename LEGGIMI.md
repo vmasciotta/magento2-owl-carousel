@@ -4,18 +4,18 @@ Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee gui
  
 ## Come installare
  
- Aggiungere la riga seguente al composer del proprio progetto:
+ **Questo modulo è ora disponibile attraverso *Packagist* ! Non è più necessario specificare il repository**
+
+
+Aggiungi la riga seguente al composer del proprio progetto:
+
   
  ```
  ...
  "require":{
      ...
-     "vmasciotta/magento2-owl-carousel":"1.0.0"
-  },
-  ...
-  "repositories":[
-      {"type": "vcs", "url":"git@github.com:vmasciotta/magento2-owl-carousel.git"}
-  ]
+     "vmasciotta/magento2-owl-carousel":"^1.0.0"
+  }
  ```
   
  Esegure quindi dalla root di magento i seguenti comandi:

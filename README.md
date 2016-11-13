@@ -2,9 +2,9 @@
 
 This simple module allows You to use OwlCarousel following the Magento way.
 
-Questo semplice modulo ti permetterà di usare OwlCarousel seguendo le linee guida di Magento.
-
 ## How to install
+
+**This module is now available through *Packagist* ! You don't need to specify the repository anymore.**
 
 Add the following lines into your composer.json
  
@@ -13,11 +13,7 @@ Add the following lines into your composer.json
 "require":{
     ...
     "vmasciotta/magento2-owl-carousel":"^1.0.0"
- },
- ...
- "repositories":[
-     {"type": "vcs", "url":"git@github.com:vmasciotta/magento2-owl-carousel.git"}
- ]
+ }
 ```
  
 Then type the following commands from your Magento root:
