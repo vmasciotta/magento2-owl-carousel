@@ -15,6 +15,10 @@ Add the following lines into your composer.json
     "vmasciotta/magento2-owl-carousel":"^1.0.0"
  }
 ```
+or simply digit 
+```
+composer require vmasciotta/magento2-owl-carousel
+```
  
 Then type the following commands from your Magento root:
 
